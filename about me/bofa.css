@@ -1,0 +1,30 @@
+h1 {
+    font-size: 2em;
+}
+
+.p1{ 
+    margin-top: 20;
+    margin-bottom: 20;
+    margin-left: 50;
+    margin-right: 50;
+
+}
+
+.p2{
+    size:3em;
+    color: purple;
+    background-color: blue;
+    text-emphasis-color: white;
+    text-align:center 
+    
+}
+img{
+float: right;
+display: block;
+margin: 50px;
+width: 350px;
+padding: 150px;
+
+}
+
+section {border-radius: 10%;}
