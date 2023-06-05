@@ -11,8 +11,8 @@ Fonts are separated by a | */
   --accent2-color: white;
 
   /* change the values below to your chosen font(s) */
-  --heading-font: "Helvetica, sans-serif";
-  --paragraph-font: IM Fell French Canon SC;
+  --heading-font: font-family: 'Permanent Marker', cursive;
+  --paragraph-font: font-family: 'Rock Salt', cursive;
 
   /* these colors below should be chosen from among your palette colors above */
   --headline-color-on-white: #1e3341;  /* headlines on a white background */ 
