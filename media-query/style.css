@@ -1,0 +1,15 @@
+div {
+    background-color: purple;
+}
+
+@media  screen and (max-width:786px) {
+    div {
+        background-color: orange;
+    }
+}
+    
+@media screen and (max-width: 602px) {
+    div {
+       background-color: blue;
+    }
+}

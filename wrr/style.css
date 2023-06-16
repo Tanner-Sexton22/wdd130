@@ -163,4 +163,12 @@ nav a:hover {
   border-top: 1px solid;
   border-right: 1px solid;
 }
-âŒ¥Q
+@media screen and (max-width: 900px) {
+  #hero, .home-grid {
+      display: block;
+      height: auto;
+  }
+  .main {
+    display: grid;
+    grid-template-columns: 10;
+  }
