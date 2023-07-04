@@ -1,0 +1,78 @@
+h1 {
+    color: #396E94;
+    grid-row: 3;
+}
+
+h2 {
+    color: #A43312;
+}
+
+h3 {
+    color: #396E94;
+}
+h1, h2 {
+    font-family: 'Permanent Marker', cursive;
+}
+h3 {
+    font-family: 'Rock Salt', cursive;
+}
+.my {
+   grid-row: 3;
+   grid-column: 1;
+}
+.about {
+    align-items: center;
+    grid-column: 1;
+    grid-row: 4;
+}
+.logo {
+    width: 450px;
+    height: 450px;
+}
+.store {
+    border: 50px solid #ddd;
+    border-radius: 10px;
+    padding: 50px;
+    width: 850px;
+    height: 850px;
+    align-self: center;
+    grid-column: 1;
+    grid-row: 2;
+}
+.kid {
+    grid-column: 1;
+    grid-row: 5;
+    height: 850px;
+    width: 850px;
+    border: 50px solid #ddd;
+    border-radius: 10px;
+    padding: 50px;
+    align-self: center;
+}
+.body {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 4em;
+    font-size: 18px;
+    text-align: center;
+}
+.container-grid {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 6,repeat(100px);
+}
+  .main {
+    background-color: burlywood;
+    text-align: center;
+  }
+  .header {
+    background-color: burlywood;
+    align-items: center;
+    grid-column: 1;
+    grid-row: 1;
+  }
+  .footer {
+    grid-column: 1;
+    grid-row: 6;
+  }
+ 
