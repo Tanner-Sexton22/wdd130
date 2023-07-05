@@ -66,10 +66,9 @@ h3 {
     text-align: center;
   }
   .header {
+    grid-template-columns: 1;
     background-color: burlywood;
     align-items: center;
-    grid-column: 1;
-    grid-row: 1;
   }
   .footer {
     grid-column: 1;
