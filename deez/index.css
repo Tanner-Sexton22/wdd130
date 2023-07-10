@@ -11,10 +11,15 @@ h3 {
     color: #396E94;
 }
 h1, h2 {
+    height: 400px;
     font-family: 'Permanent Marker', cursive;
+    font-size: 100px;
+    background-color: lightgray;
 }
 h3 {
     font-family: 'Rock Salt', cursive;
+    font-size: 100px;
+    height: 400px;
 }
 .my {
    width: 100%;
@@ -26,14 +31,15 @@ h3 {
 }
 .logo {
     width: 100%;
+    height: 100%;
     grid-column: 2;
 }
 .store {
     border: 50px solid #ddd;
     border-radius: 10px;
     padding: 50px;
-    width: 850px;
-    height: 850px;
+    width: 80%;
+    height: 80%;
     align-self: center;
     grid-template-columns: 1;
     grid-row: 2;
@@ -41,19 +47,18 @@ h3 {
 .kid {
     grid-column: 1;
     grid-row: 5;
-    height: 850px;
-    width: 850px;
+    height: 80%;
+    width: 80%;
     border: 50px solid #ddd;
     border-radius: 10px;
     padding: 50px;
     align-self: center;
 }
 body {
-    max-width: 1200px;
     margin: 0 auto;
-    padding: 4em;
     font-size: 18px;
     text-align: center;
+    background-color: burlywood;
 }
 .main {
     background-color: burlywood;
@@ -62,21 +67,68 @@ body {
 header {
     display: grid;
     grid-template-columns: 1fr 100px;
-    background-color: burlywood;
+    background-color: rgb(113, 141, 159);
+    padding: 50px;
   }
 footer {
     grid-template-columns: 1fr 100px;
 }
 .charizard {
-    width: 300px;
+    width: 90%;
+    height: 1000px;
+    object-fit: cover;
 }
 .bama {
-    width: 300px;
+    width: 90%;
+    height: 925px;
+    object-fit: cover;
+    justify-self: center;
+    padding-top: 50px;
 }
 .joe {
-    width: 300px;
+    width: 2000px;
+    padding-top: 50px;
 }
  .games {
-    width: 500px;
-    height: 600px;
+    width: 90%;
+    height: 1300px;
+    object-fit: cover;
+ }
+ .subpage {
+    background-color: burlywood;
+ }
+ a {
+    font-size: 50px;
+    font-weight: 100;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+
+}
+button {
+    background-color: greenyellow;
+    height: 250px;
+    width: 350px;
+    text-decoration: wavy;
+    text-decoration-color: aliceblue;
+}
+nav {
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+    align-items: center;
+    grid-row: 1;
+}
+.product {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.pokemon {
+    width: 2000px;
+    padding-top: 50px;
+}
+.comics {
+    width: 95%;
+    height: 1200px;
+    object-fit: cover;
+    justify-self: center;
+    padding-top: 50px;
  }
