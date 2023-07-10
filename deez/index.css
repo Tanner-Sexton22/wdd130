@@ -35,7 +35,7 @@ h3 {
     grid-column: 2;
 }
 .store {
-    border: 50px, solid, #ddd;
+    border: 50px solid #ddd;
     border-radius: 10px;
     padding: 50px;
     width: 80%;
