@@ -11,15 +11,15 @@ h3 {
     color: #396E94;
 }
 h1, h2 {
-    height: 400px;
+    height: 300px;
     font-family: 'Permanent Marker', cursive;
-    font-size: 90px;
+    font-size: 75px;
     background-color: lightgray;
 }
 h3 {
     font-family: 'Rock Salt', cursive;
-    font-size: 90px;
-    height: 400px;
+    font-size: 85px;
+    height: 300px;
 }
 .my {
    width: 100%;
