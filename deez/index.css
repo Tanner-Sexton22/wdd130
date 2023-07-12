@@ -11,15 +11,15 @@ h3 {
     color: #396E94;
 }
 h1, h2 {
-    height: 300px;
+    height: 100px;
     font-family: 'Permanent Marker', cursive;
-    font-size: 75px;
+    font-size: 25px;
     background-color: lightgray;
 }
 h3 {
     font-family: 'Rock Salt', cursive;
-    font-size: 85px;
-    height: 300px;
+    font-size: 25px;
+    height: 100px;
 }
 .my {
    width: 100%;
@@ -75,24 +75,24 @@ footer {
 }
 .charizard {
     width: 90%;
-    height: 1000px;
+    height: 90%;
     object-fit: cover;
 }
 .bama {
     width: 90%;
-    height: 925px;
+    height: 90%;
     object-fit: cover;
     justify-self: center;
     padding-top: 50px;
 }
 .joe {
-    width: 1500px;
-    height: 925px;
+    width: 90%;
+    height: 90%;
     padding-top: 50px;
 }
  .games {
     width: 90%;
-    height: 1200px;
+    height: 90%;
     object-fit: cover;
  }
  .subpage {
@@ -100,14 +100,14 @@ footer {
  }
  a {
     font-size: 50px;
-    font-weight: 100;
+    font-weight: 100px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
 
 }
 button {
     background-color: greenyellow;
-    height: 250px;
-    width: 350px;
+    height: 50px;
+    width: 50px;
     text-decoration: wavy;
     text-decoration-color: aliceblue;
 }
@@ -123,13 +123,13 @@ nav {
     grid-template-columns: 1fr 1fr;
 }
 .pokemon {
-    width: 1800px;
-    height: 2000px;
+    width: 90%;
+    height: 90%;
     padding-top: 50px;
 }
 .comics {
     width: 95%;
-    height: 1200px;
+    height: 95%;
     object-fit: cover;
     justify-self: center;
     padding-top: 50px;
