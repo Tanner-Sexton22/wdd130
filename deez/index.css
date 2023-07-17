@@ -1,24 +1,25 @@
 h1 {
     color: #396E94;
     grid-row: 3;
-    background-color: lightgray;
+    background-color: aliceblue;
     font-family: 'Permanent Marker', cursive;
     height: 300px;
-    width: 90%;
-    font-size: 50px;
+    width: 100%;
+    font-size: 60px;
 }
 
 h2 {
     color: #A43312;
-    background-color: lightgray;
+    background-color: aliceblue;
     font-family: 'Permanent Marker', cursive;
     height: 300px;
-    width: 90%;
-    font-size: 50px;
+    width: 100%;
+    font-size: 60px;
 }
 
 h3 {
     color: #396E94;
+    background-color: aliceblue;
 }
 h3 {
     font-family: 'Rock Salt', cursive;
@@ -39,7 +40,7 @@ h3 {
     grid-column: 2;
 }
 .store {
-    border: 50px solid #ddd;
+    border: 50px solid aliceblue;
     border-radius: 10px;
     padding: 50px;
     width: 80%;
@@ -52,7 +53,7 @@ h3 {
     grid-row: 5;
     height: 80%;
     width: 80%;
-    border: 50px solid #ddd;
+    border: 50px solid aliceblue;
     border-radius: 10px;
     padding: 50px;
     align-self: center;
@@ -80,7 +81,7 @@ footer {
     width: 90%;
     height: 60%;
     object-fit: cover;
-    border: 50px solid #ddd;
+    border: 50px solid aliceblue;
     border-radius: 10px;
 }
 .bama {
@@ -89,21 +90,21 @@ footer {
     object-fit: cover;
     justify-self: center;
     padding-top: 10px;
-    border: 50px solid #ddd;
+    border: 50px solid aliceblue;
     border-radius: 10px;
 }
 .joe {
     width: 70%;
     height: 100%;
     padding-top: 50px;
-    border: 50px solid #ddd;
+    border: 50px solid aliceblue;
     border-radius: 10px;
 }
  .games {
     width: 90%;
     height: 90%;
     object-fit: cover;
-    border: 50px solid #ddd;
+    border: 50px solid aliceblue;
     border-radius: 10px;
  }
  .subpage {
@@ -112,6 +113,8 @@ footer {
  a {
     font-size: 35px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    text-decoration: none;
+    color: aliceblue;
 
 }
 button {
@@ -136,7 +139,7 @@ nav {
     width: 90%;
     height: 90%;
     padding-top: 50px;
-    border: 50px solid #ddd;
+    border: 50px solid aliceblue;
     border-radius: 10px;
 }
 .comics {
@@ -145,6 +148,6 @@ nav {
     object-fit: cover;
     justify-self: center;
     padding-bottom: 40px;
-    border: 50px solid #ddd;
+    border: 50px solid aliceblue;
     border-radius: 10px;
  }
