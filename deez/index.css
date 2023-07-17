@@ -45,7 +45,6 @@ h3 {
     width: 80%;
     height: 80%;
     align-self: center;
-    grid-template-columns: 1;
     grid-row: 2;
 }
 .kid {
